@@ -1,0 +1,27 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    text-align: center;
+}
+#logo{
+    margin: auto;
+    width: 345px;
+    height: 150px;
+    background-image: url('images/logo.png');
+    background-repeat: no-repeat;
+}
+#grid{
+    margin: auto;
+    display: flex;
+    flex-wrap: wrap;
+    width: 450px;
+}
+#grid img{
+    margin:3px;
+    width: 120px;
+    height: 100px;
+    margin: 5px;
+}
